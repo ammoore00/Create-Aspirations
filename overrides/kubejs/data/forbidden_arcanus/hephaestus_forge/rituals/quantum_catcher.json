@@ -1,0 +1,26 @@
+{
+  "inputs": [
+      {
+          "item": "forbidden_arcanus:spawner_scrap",
+          "slot": 0
+      },
+      {
+          "item": "deeperdarker:soul_crystal",
+          "slot": 2
+      },
+      {
+          "item": "phantasm:stardust",
+          "slot": 4
+      }
+  ],
+  "hephaestus_forge_item": "forbidden_arcanus:arcane_crystal_block",
+  "essences": {
+      "aureal": 82,
+      "blood": 1000,
+      "souls": 1
+  },
+  "result": {
+      "item": "forbidden_arcanus:quantum_catcher",
+      "count": 1
+  }
+}

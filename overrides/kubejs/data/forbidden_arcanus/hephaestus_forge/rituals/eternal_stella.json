@@ -1,0 +1,30 @@
+{
+  "inputs": [
+      {
+          "item": "create_sa:heap_of_experience",
+          "slot": 1
+      },
+      {
+          "item": "create_sa:heap_of_experience",
+          "slot": 2
+      },
+      {
+          "item": "deeperdarker:soul_dust",
+          "slot": 4
+      },
+      {
+          "item": "forbidden_arcanus:stellarite_piece",
+          "slot": 5
+      }
+  ],
+  "hephaestus_forge_item": "phantasm:stellium_ingot",
+  "essences": {
+      "aureal": 82,
+      "blood": 1000,
+      "souls": 1
+  },
+  "result": {
+      "item": "forbidden_arcanus:eternal_stella",
+      "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "inputs": [
+      {
+          "item": "kubejs:coke",
+          "slot": 0
+      },
+      {
+          "item": "minecraft:blaze_powder",
+          "slot": 1
+      },
+      {
+          "item": "minecraft:blaze_powder",
+          "slot": 2
+      },
+      {
+          "item": "minecraft:blaze_powder",
+          "slot": 3
+      },
+      {
+          "item": "minecraft:blaze_powder",
+          "slot": 4
+      },
+      {
+          "item": "kubejs:coke",
+          "slot": 5
+      }
+  ],
+  "hephaestus_forge_item": "phantasm:fallen_star",
+  "essences": {
+      "aureal": 82,
+      "blood": 1000,
+      "souls": 1
+  },
+  "result": {
+      "item": "forbidden_arcanus:smelter_prism",
+      "count": 1
+  }
+}

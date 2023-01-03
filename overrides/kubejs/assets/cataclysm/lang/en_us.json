@@ -1,0 +1,23 @@
+{
+  "item.cataclysm.final_fractal.desc": "It causes additional damage as much as 3% of the maximum hp of the entity hit.",
+  "item.cataclysm.zweiender.desc": "Attacking the back of the target causes twice as much damage.",
+  "item.cataclysm.infernal_forge.desc": "Right clicking a block with this tool in the main hand causes a damage in a wide area.",
+  "item.cataclysm.infernal_forge.desc2": "This tool functions as a pickaxe.",
+  "item.cataclysm.gauntlet_of_guard.desc": "When in your main hand, you can pull entities towards you with a right click.",
+  "item.cataclysm.monstrous_helm.desc": "If you fall below half of your hp while wearing this helmet, you will push nearby enemies away and",
+  "item.cataclysm.monstrous_helm2.desc": "gain increased defense, knockback resistance, and regeneration.",
+  "item.cataclysm.void_core.desc": "Right click to summon a void rune.",
+  "item.cataclysm.wip.desc": "W.I.P",
+  "item.cataclysm.ignitium_helmet.desc": "Lava Vision",
+  "item.cataclysm.ignitium_chestplate.desc": "Can be combined with an elytra",
+  "item.cataclysm.ignitium_leggings.desc": "Flame Reflex",
+  "item.cataclysm.ignitium_boots.desc": "Lava Walker",
+  "item.cataclysm.bulwark_of_the_flame.desc": "Releasing right click while sneaking will allow you to charge forward, dealing damage to entities in your path.",
+  "item.cataclysm.bulwark_of_the_flame2.desc": "If a target hits a wall, it will take more damage and become stunned.",
+  "item.cataclysm.incinerator.desc": "Full charge takes 3 seconds, If you stop holding right click after 3 second",
+  "item.cataclysm.incinerator2.desc": "you can summon a flame strike in the direction of looking at.",
+  "item.cataclysm.incinerator3.desc": "WARNING: The item may be lost as the flame strike explodes when it disappears.",
+
+  "item.cataclysm.bulwark_of_the_flame": "Bulwark of the Flame",
+  "item.cataclysm.gauntlet_of_guard": "Gauntlet of Guarding"
+}

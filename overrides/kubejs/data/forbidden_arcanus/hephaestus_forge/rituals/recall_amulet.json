@@ -1,0 +1,38 @@
+{
+  "inputs": [
+      {
+          "item": "kubejs:deorum_sheet",
+          "slot": 0
+      },
+      {
+          "item": "forbidden_arcanus:ender_pearl_fragment",
+          "slot": 1
+      },
+      {
+          "item": "forbidden_arcanus:ender_pearl_fragment",
+          "slot": 2
+      },
+      {
+          "item": "kubejs:deorum_sheet",
+          "slot": 3
+      },
+      {
+          "item": "forbidden_arcanus:ender_pearl_fragment",
+          "slot": 4
+      },
+      {
+          "item": "forbidden_arcanus:ender_pearl_fragment",
+          "slot": 5
+      }
+  ],
+  "hephaestus_forge_item": "forbidden_arcanus:arcane_crystal",
+  "essences": {
+      "aureal": 82,
+      "blood": 1000,
+      "souls": 1
+  },
+  "result": {
+      "item": "recall:item_recall",
+      "count": 1
+  }
+}

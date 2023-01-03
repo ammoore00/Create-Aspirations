@@ -1,0 +1,44 @@
+[
+  {
+    "id": "minecraft:iron_helmet",
+    "slot": "head",
+    "attribute": "minecraft:generic.armor_toughness",
+    "amount": 1.0,
+    "operation": "addition"
+  },
+  {
+    "id": "minecraft:iron_chestplate",
+    "slot": "chest",
+    "attribute": "minecraft:generic.armor_toughness",
+    "amount": 1.0,
+    "operation": "addition"
+  },
+  {
+    "id": "minecraft:iron_leggings",
+    "slot": "legs",
+    "attribute": "minecraft:generic.armor_toughness",
+    "amount": 1.0,
+    "operation": "addition"
+  },
+  {
+    "id": "minecraft:iron_boots",
+    "slot": "feet",
+    "attribute": "minecraft:generic.armor_toughness",
+    "amount": 1.0,
+    "operation": "addition"
+  },
+  {
+    "id": "minecraft:netherite_helmet",
+    "slot": "head",
+    "attribute": "minecraft:generic.armor",
+    "amount": 1.0,
+    "operation": "addition"
+  },
+  {
+    "id": "minecraft:netherite_boots",
+    "slot": "feet",
+    "attribute": "minecraft:generic.armor",
+    "amount": 1.0,
+    "operation": "addition"
+  }
+]

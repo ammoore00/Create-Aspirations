@@ -1,0 +1,8 @@
+{
+  "item.create_sa.incomplete_steam_engine": "Incomplete Kinetic Mechanism",
+  "item.create_sa.incomplete_hydraulic_engine": "Incomplete Hydraulic Mechanism",
+  "item.create_sa.heat_engine": "Reinforced Mechanism",
+  "item.create_sa.steam_engine": "Kinetic Mechanism",
+  "item.create_sa.incomplete_heat_engine": "Incomplete Reinforced Mechanism",
+  "item.create_sa.hydraulic_engine": "Hydraulic Mechanism"
+}
