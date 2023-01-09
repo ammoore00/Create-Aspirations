@@ -2,8 +2,6 @@ ServerEvents.recipes(event => {
 
     //------ Redstone ------//
 
-    event.remove({output: 'minecraft:hopper'})
-
     event.remove({id: 'minecraft:repeater'})
     event.remove({id: 'quark:tweaks/crafting/utility/misc/repeater'})
     event.remove({id: 'minecraft:comparator'})
@@ -144,10 +142,7 @@ ServerEvents.recipes(event => {
         heatRequirement: 'heated',
         ingredients: [
             Ingredient.of('minecraft:quartz').toJson(),
-            Ingredient.of('minecraft:redstone').toJson(),
-            Ingredient.of('minecraft:redstone').toJson(),
-            Ingredient.of('minecraft:redstone').toJson(),
-            Ingredient.of('minecraft:redstone').toJson(),
+            Ingredient.of('4x minecraft:redstone').toJson(),
             Fluid.of('kubejs:molten_iron', 90).toJson()
         ],
         results: [

@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "create_sa:brass_pickaxe",
+        "create_sa:brass_axe",
+        "create_sa:brass_shovel",
+        "create_sa:brass_hoe",
+        "create_sa:brass_sword",
+        "create_things_and_misc:brass_knife"
+    ]
+}

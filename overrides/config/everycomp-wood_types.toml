@@ -52,8 +52,9 @@
 			aurum = true
 			nuggety_aurum = true
 
-		[types.leaves_type.silverbirch]
-			silver_birch = true
+		[types.leaves_type.windswept]
+			holly = true
+			chestnut = true
 
 	[types.wood_type]
 
@@ -111,8 +112,9 @@
 		[types.wood_type.enlightened_end]
 			congealed = true
 
-		[types.wood_type.silverbirch]
-			silver_birch = true
+		[types.wood_type.windswept]
+			holly = true
+			chestnut = true
 
 	[types.cut_blocK_type]
 
@@ -470,8 +472,9 @@
 			mossy_voikrust = true
 			ebony = true
 
-		[types.cut_blocK_type.silverbirch]
-			silver_birch = true
+		[types.cut_blocK_type.windswept]
+			holly = true
+			chestnut = true
 
 [entries]
 

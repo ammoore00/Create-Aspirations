@@ -386,7 +386,7 @@
 	"Enable Hoes Nerfs" = false
 	#Crops are no longer insta-minable. This applies only to blocks that are instances of net.minecraft.world.level.block.CropBlock.
 	#Break speed is still affected by the Hardness module.
-	"Enable Harder Crops" = true
+	"Enable Harder Crops" = false
 	#Slower Crops growing based off various factors
 	"Enable Crops Growth" = false
 	#Slower breeding, Growing, Egging and Milking
@@ -409,7 +409,7 @@
 	[Farming."Harder Crops"]
 		#How hard to break are plants? For comparison, dirt has an hardness of 0.5
 		#Range: 0.0 ~ 128.0
-		Hardness = 1.0
+		Hardness = 0.2
 		#If the hardness should be applied to mature crops only.
 		"Only fully grown" = true
 
@@ -541,7 +541,7 @@
 		"Nerf weapons" = false
 		#Set arrow's damage increase with the Power enchantment (vanilla is 0.5). Set to 0.5 to disable.
 		#Range: 0.0 ~ 10.0
-		"Power Enchantment Damage Increase" = 0.55
+		"Power Enchantment Damage Increase" = 0.5
 		#If true, Arrows from Bows will no longer randomly crit (basically disables the random bonus damage given when firing a fully charged arrow).
 		"Disable Arrow Crits" = true
 		#If true, Arrows from Crossbows will no longer deal random damage, but a set amount of damage (about 9 at a medium distance, like Bedrock Edition).
@@ -562,7 +562,7 @@
 		#Range: 0.0 ~ 128.0
 		"Shield Damage Blocked" = 0.0
 		#Makes shields always disable for 1.6 seconds like Combat Test snapshots.
-		"Combat Test shield disabling" = true
+		"Combat Test shield disabling" = false
 
 	#Player will deal no knockback if attacking with a non-weapon or spamming.
 	[Combat."No Knockback"]

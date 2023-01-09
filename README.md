@@ -1,12 +1,42 @@
-## Modlist
+# Create Aspirations
+A Minecraft 1.19 modpack focused on adventure, exploration, and automation, while keeping a consistent vanilla-adjacent style!
 
+Create Aspirations leans into what Create offers, encouraging players to automate creatively using the many tools available in the pack, rather than providing prepackaged solutions to problems.
+
+Furthermore, the pack adds many new environments to explore, from the new and exciting Overworld biomes from Biomes O' Plenty and Terralith, to the terrifying expanded Nether, to the ominous completely revamped End dimension. For those feeling extra brave, a brand new dimension has been added thanks to Deeper and Darker, accessible through ancient city ruins deep beneath the earth, protected by the powerful Warden. There are hundreds of new and revamped structures to find, as well as many new mobs to befriend or kill - including several bosses with powerful rewards!
+
+Also included in the pack are many quality of life staples, such as a gravestone mod, extra informational utilities, shader capabilities, and a suite of performance enhancing mods. A full mod list is available below (library mods have been excluded for brevity).
+
+## Feature Overview
+- New world generation in the overworld, nether, and end, as well as a new sculk dimension!
+- Automation with Create and addons!
+- New farming adventures with Farmer's Delight!
+- Multiple bosses with powerful rewards!
+- New tools, weapons, and gear!
+- Hundreds of new structures, as well as reimaginings of vanilla structures!
+- Waystones generated through structures!
+- Tons of decoration blocks!
+- Built in shaders through Oculus! (Shaders not included)
+- Gravestones, minimap, waila, and many other quality of life mods!
+- A suite of performance mods to help the game run smoother!
+
+## Important!
+
+Please make sure to allocate enough memory, 8Gb is recommended.
+
+Optifine is not compatible! Shader capabilities are included by default.
+
+## Modlist
 ### Core Mods
+- Aquamirae - https://www.curseforge.com/minecraft/mc-mods/ob-aquamirae
 - Create - https://www.curseforge.com/minecraft/mc-mods/create
+- Deeper and Darker - https://www.curseforge.com/minecraft/mc-mods/deeperdarker
 - Farmer's Delight - https://www.curseforge.com/minecraft/mc-mods/farmers-delight
 - Forbidden and Arcanus - https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus
 - L_Ender's Cataclysm - https://www.curseforge.com/minecraft/mc-mods/l_ender-s-cataclysm
 - Little Logistics - https://www.curseforge.com/minecraft/mc-mods/little-logistics
 - Quark - https://www.curseforge.com/minecraft/mc-mods/quark
+- Spirit - https://www.curseforge.com/minecraft/mc-mods/spirit
 - Tom's Simple Storage - https://www.curseforge.com/minecraft/mc-mods/toms-storage
 
 ### Content Mods
@@ -21,9 +51,11 @@
 - Create Steam 'n Rails - https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails
 - Goblin Traders - https://www.curseforge.com/minecraft/mc-mods/goblin-traders
 - Little Contraptions - https://www.curseforge.com/minecraft/mc-mods/little-contraptions
+- Nether's Delight - https://www.curseforge.com/minecraft/mc-mods/nethers-delight
 - Quark Oddities - https://www.curseforge.com/minecraft/mc-mods/quark-oddities
 - Recall - https://www.curseforge.com/minecraft/mc-mods/recall
 - Savage Ender Dragon - https://www.curseforge.com/minecraft/mc-mods/savage-ender-dragon
+- Sculked - https://www.curseforge.com/minecraft/mc-mods/sculked
 - Villager Comfort - https://www.curseforge.com/minecraft/mc-mods/villager-comfort
 - Villager Names - https://www.curseforge.com/minecraft/mc-mods/villager-names
 - Waystones - https://www.curseforge.com/minecraft/mc-mods/waystones
@@ -34,14 +66,12 @@
 - Amplified Nether - https://www.curseforge.com/minecraft/mc-mods/amplified-nether
 - Biome Makeover - https://www.curseforge.com/minecraft/mc-mods/biome-makeover-forge
 - Biomes O' Plenty - https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty
-- Deeper and Darker - https://www.curseforge.com/minecraft/mc-mods/deeperdarker
 - Deeper Nether Biomes - https://www.curseforge.com/minecraft/mc-mods/deeper-nether-biomes
 - End's Phantasm - https://www.curseforge.com/minecraft/mc-mods/phantasm
 - Enlightened End - https://www.curseforge.com/minecraft/mc-mods/enlightened-end
 - Gardens of the Dead - https://www.curseforge.com/minecraft/mc-mods/gardens-of-the-dead
 - Infernal Expansion - https://www.curseforge.com/minecraft/mc-mods/infernal-expansion
 - Nullscape - https://www.curseforge.com/minecraft/mc-mods/nullscape
-- Silver Birch - https://www.curseforge.com/minecraft/mc-mods/silverbirch
 - Terralith - https://www.curseforge.com/minecraft/mc-mods/terralith
 
 ### Structures
@@ -115,12 +145,14 @@
 - Naturalist - https://www.curseforge.com/minecraft/mc-mods/naturalist
 - Nyf's Spiders - https://www.curseforge.com/minecraft/mc-mods/nyfs-spiders
 - Random Bonemeal Flowers - https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers
-- Sculked - https://www.curseforge.com/minecraft/mc-mods/sculked
+- Sound Physics Remastered - https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered
+- Windswept - https://www.curseforge.com/minecraft/mc-mods/windsweptmod
 
 ### Quality of Life
 - Blue Flame Burning - https://www.curseforge.com/minecraft/mc-mods/blueflame
 - Boat Item View - https://www.curseforge.com/minecraft/mc-mods/boat-item-view-forge
 - Builder's Tabs - https://www.curseforge.com/minecraft/mc-mods/builders-tabs
+- Charm of Undying - https://www.curseforge.com/minecraft/mc-mods/charm-of-undying
 - Chat Heads - https://www.curseforge.com/minecraft/mc-mods/chat-heads
 - Cherished Worlds - https://www.curseforge.com/minecraft/mc-mods/cherished-worlds
 - Cosmetic Armor Reworked - https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked
@@ -131,6 +163,7 @@
 - Cycle Paintings - https://www.curseforge.com/minecraft/mc-mods/cycle-paintings
 - Dragon Drops Elytra - https://www.curseforge.com/minecraft/mc-mods/dragon-drops-elytra
 - Easy Anvils - https://www.curseforge.com/minecraft/mc-mods/easy-anvils
+- Easy Magic - https://www.curseforge.com/minecraft/mc-mods/easy-magic
 - Easy Shulker Boxes - https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes
 - Enchantment Descriptions - https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions
 - Enigmatic Graves - https://www.curseforge.com/minecraft/mc-mods/enigmatic-graves
@@ -153,9 +186,11 @@
 - Mouse Tweaks - https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
 - Nature's Compass - https://www.curseforge.com/minecraft/mc-mods/natures-compass
 - Neko's Enchanted Books - https://www.curseforge.com/minecraft/mc-mods/nekos-enchanted-books
+- NoMoWanderer - https://www.curseforge.com/minecraft/mc-mods/nomowanderer
 - Our Villager Discounts - https://www.curseforge.com/minecraft/mc-mods/our-villager-discounts
 - Passive Shield - https://www.curseforge.com/minecraft/mc-mods/passive-shield
 - Scaffolding Drops Nearby - https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby
+- Skin Layers 3D - https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d
 - Shulker Drops Two - https://www.curseforge.com/minecraft/mc-mods/shulker-drops-two
 - Shutup Experimental Settings! - https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings
 - Smarter Farmers - https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant
@@ -165,6 +200,7 @@
 - Tool Belt - https://www.curseforge.com/minecraft/mc-mods/tool-belt
 - Trade Cycling - https://www.curseforge.com/minecraft/mc-mods/trade-cycling
 - Trample Stopper - https://www.curseforge.com/minecraft/mc-mods/trample-stopper
+- Village Siege Disabler - https://www.curseforge.com/minecraft/mc-mods/village-siege-disabler
 - Why stacks of 16? - https://www.curseforge.com/minecraft/mc-mods/why-stacks-of-16
 
 ### Compatibility
@@ -178,7 +214,7 @@
 - Better Advancements - https://www.curseforge.com/minecraft/mc-mods/better-advancements
 - Better F3 - https://www.curseforge.com/minecraft/mc-mods/better-f3
 - Clickable Advancements - https://www.curseforge.com/minecraft/mc-mods/clickable-advancements
-- Durability Tooltip - https://www.curseforge.com/minecraft/mc-mods/better-f3
+- Equipment Compare - https://www.curseforge.com/minecraft/mc-mods/equipment-compare
 - Jade - https://www.curseforge.com/minecraft/mc-mods/jade
 - Jade Addons - https://www.curseforge.com/minecraft/mc-mods/jade-addons
 - JER Integration - https://www.curseforge.com/minecraft/mc-mods/jei-integration
@@ -189,6 +225,7 @@
 - Just Enough Painting Previews - https://www.curseforge.com/minecraft/mc-mods/jepp
 - Just Enough Professions - https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep
 - Just Enough Resources - https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer
+- Obscure API - https://www.curseforge.com/minecraft/mc-mods/obscure-api
 - Overloaded Armor Bar - https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar
 - Raised - https://www.curseforge.com/minecraft/mc-mods/raised
 - Stylish Effects - https://www.curseforge.com/minecraft/mc-mods/stylish-effects
@@ -248,6 +285,4 @@
 - Poor Golems - https://www.curseforge.com/minecraft/mc-mods/poor-golems
 - Rule Control - https://www.curseforge.com/minecraft/mc-mods/rule-control-rc
 - Server Config Updater - https://www.curseforge.com/minecraft/mc-mods/serverconfig-updater
-- Sound Physics Remastered - https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered
 - TexTrue's Rubidium Options - https://www.curseforge.com/minecraft/mc-mods/textrues-rubidium-options
-- Village Siege Disabler - https://www.curseforge.com/minecraft/mc-mods/village-siege-disabler

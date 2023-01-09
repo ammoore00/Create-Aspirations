@@ -1,0 +1,35 @@
+{
+    "block.minecraft.crafting_table": "Ornate Oak Crafting Table",
+    "block.vct.spruce_crafting_table": "Ornate Spruce Crafting Table",
+    "block.vct.birch_crafting_table": "Ornate Birch Crafting Table",
+    "block.vct.jungle_crafting_table": "Ornate Jungle Crafting Table",
+    "block.vct.acacia_crafting_table": "Ornate Acacia Crafting Table",
+    "block.vct.dark_oak_crafting_table": "Ornate Dark Oak Crafting Table",
+    "block.vct.mangrove_crafting_table": "Ornate Mangrove Crafting Table",
+    "block.vct.crimson_crafting_table": "Ornate Crimson Crafting Table",
+    "block.vct.warped_crafting_table": "Ornate Warped Crafting Table",
+
+    "block.vct.bop_cherry_crafting_table": "Ornate Cherry Crafting Table",
+    "block.vct.bop_dead_crafting_table": "Ornate Dead Crafting Table",
+    "block.vct.bop_fir_crafting_table": "Ornate Fir Crafting Table",
+    "block.vct.bop_hellbark_crafting_table": "Ornate Hellbark Crafting Table",
+    "block.vct.bop_jacaranda_crafting_table": "Ornate Jacaranda Crafting Table",
+    "block.vct.bop_magic_crafting_table": "Ornate Magic Crafting Table",
+    "block.vct.bop_mahogany_crafting_table": "Ornate Mahogany Crafting Table",
+    "block.vct.bop_palm_crafting_table": "Ornate Palm Crafting Table",
+    "block.vct.bop_redwood_crafting_table": "Ornate Redwood Crafting Table",
+    "block.vct.bop_umbran_crafting_table": "Ornate Umbran Crafting Table",
+    "block.vct.bop_willow_crafting_table": "Ornate Willow Crafting Table",
+    
+    "block.vct.quark_blossom_crafting_table": "Ornate Blossom Crafting Table",
+
+    "block.vct.eco_azalea_crafting_table": "Ornate Azalea Crafting Table",
+    "block.vct.eco_flowering_azalea_crafting_table": "Ornate Flowering Azalea Crafting Table",
+    "block.vct.eco_coconut_crafting_table": "Ornate Coconut Crafting Table",
+    "block.vct.eco_walnut_crafting_table": "Ornate Walnut Crafting Table",
+
+    "block.vct.stripped_bamboo_crafting_table": "Ornate Stripped Bamboo Crafting Table",
+
+    "block.vct.ebony_crafting_table": "Ornate Ebony Crafting Table",
+    "block.vct.pream_crafting_table": "Ornate Pream Crafting Table"
+}

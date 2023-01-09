@@ -220,9 +220,9 @@
 		"Enable Stick Block" = true
 		"Enable Apple Crate" = true
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
@@ -1138,7 +1138,7 @@
 		"Ignore Anti Overlap" = false
 
 [mobs]
-	Wraith = true
+	Wraith = false
 	Toretoise = false
 	Stonelings = false
 	Shiba = false
@@ -1273,7 +1273,7 @@
 					"Is Blacklist" = true
 
 				[mobs.foxhound.spawn_config.biomes.biomes]
-					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
+					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas", "gardens_of_the_dead:whistling_woods"]
 					"Is Blacklist" = false
 
 		[mobs.foxhound.lesser_spawn_config]
@@ -1365,10 +1365,10 @@
 		"Enable Armor" = true
 
 	[client.improved_tooltips]
-		"Attribute Tooltips" = true
+		"Attribute Tooltips" = false
 		"Food Tooltips" = false
 		"Shulker Tooltips" = true
-		"Map Tooltips" = true
+		"Map Tooltips" = false
 		"Enchanting Tooltips" = true
 		"Fuel Time Tooltips" = true
 		"Shulker Box Use Colors" = true
@@ -1467,7 +1467,7 @@
 	Pipes = false
 	"Matrix Enchanting" = false
 	Magnets = false
-	Crate = false
+	Crate = true
 	Backpack = true
 
 	[oddities.totem_of_holding]

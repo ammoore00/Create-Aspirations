@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
-  event.remove({id: 'create:splashing/soul_sand'})
+
+  // Overworld sand
 
   event.custom({
       type: 'create:splashing',
@@ -38,16 +39,34 @@ ServerEvents.recipes(event => {
   })
   .id('aspirations:splashing/black_sand')
 
+  // Soul sand
+  
+  event.replaceInput({id: 'create:smelting/scoria'}, 'minecraft:soul_sand', 'forbidden_arcanus:soulless_sand')
+
+  event.remove({id: 'create:splashing/soul_sand'})
+
   event.custom({
       type: 'create:splashing',
       ingredients: [
           Ingredient.of('minecraft:soul_sand').toJson()
       ],
       results: [
-          Item.of('minecraft:quartz', 4).withChance(.125).toJson(),
+          Item.of('forbidden_arcanus:soulless_sand').toJson(),
           Item.of('forbidden_arcanus:soul').withChance(.05).toJson()
       ],
       processingTime: 250
   })
   .id('aspirations:splashing/soul_sand')
+
+  event.custom({
+      type: 'create:splashing',
+      ingredients: [
+          Ingredient.of('forbidden_arcanus:soulless_sand').toJson()
+      ],
+      results: [
+          Item.of('minecraft:quartz', 4).withChance(.125).toJson()
+      ],
+      processingTime: 250
+  })
+  .id('aspirations:splashing/soulless_sand')
 })

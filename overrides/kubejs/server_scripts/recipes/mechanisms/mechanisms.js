@@ -22,12 +22,13 @@ ServerEvents.recipes(event => {
     [
       'CEC',
       'EME',
-      'CEC'
+      'CBC'
     ],
     {
-      C: '#forge/cogwheels',
+      C: '#forge:cogwheels',
       E: 'create:electron_tube',
-      M: 'create_sa:steam_engine'
+      M: 'create_sa:steam_engine',
+      B: 'create:brass_casing'
     }
   )
 
@@ -111,4 +112,20 @@ ServerEvents.recipes(event => {
 
   event.replaceInput({id: 'create_enchantment_industry:crafting/printer'}, 'minecraft:dried_kelp', 'create_sa:hydraulic_engine')
   event.replaceInput({id: 'create:crafting/kinetics/hose_pulley'}, 'minecraft:dried_kelp_block', 'create_sa:hydraulic_engine')
+
+  event.remove({id: 'forbidden_arcanus:clibano_core'})
+
+  event.shaped(
+    'forbidden_arcanus:clibano_core',
+    [
+      'DDD',
+      'DBD',
+      'DMD'
+    ],
+    {
+      D: 'forbidden_arcanus:darkstone',
+      B: 'minecraft:blast_furnace',
+      M: 'create_sa:heat_engine'
+    }
+  )
 })

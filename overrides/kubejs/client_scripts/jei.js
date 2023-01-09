@@ -34,4 +34,18 @@ JEIEvents.hideItems(event => {
     event.hide('forbidden_arcanus:orb_of_temporary_flight')
 
     event.hide(/waystones:*/)
+
+    event.hide('toms_storage:ts.open_crate')
+    event.hide('toms_storage:ts.wireless_terminal')
+
+    event.hide('vct:quark_azalea_crafting_table')
+    event.hide('vct:quark_azalea_crafting_table_minecart')
+    event.hide('supplementaries:quark/hanging_sign_azalea')
+    event.hide('supplementaries:quark/sign_post_azalea')
+
+    event.hide('spirit:compressed_soul_sand')
+    event.hide('spirit:compressed_soul_powder_block')
+
+    event.hide('aquamirae:poisoned_chakra')
+    event.hide('aquamirae:maze_rose')
 })

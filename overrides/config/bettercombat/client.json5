@@ -11,5 +11,5 @@
 	"isTooltipAttackRangeEnabled": true,
 	"weaponSwingSoundVolume": 100,
 	"isDebugOBBEnabled": false,
-	"swingThruGrassBlacklist": "farmersdelight"
+	"swingThruGrassBlacklist": "[ \"farmersdelight\", \"create_things_and_misc\", \"alloyed:steel_knife\" ]"
 }

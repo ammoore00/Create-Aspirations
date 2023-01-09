@@ -90,7 +90,15 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'create:compacting',
         ingredients: [
-            Ingredient.of('kubejs:refined_coal_dust', 9).toJson()
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson(),
+            Ingredient.of('kubejs:refined_coal_dust').toJson()
         ],
         results: [
             Item.of('kubejs:coke').toJson()

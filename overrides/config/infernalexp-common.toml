@@ -72,21 +72,21 @@
 
 	["Mob Spawning"."Spawnable Biomes"]
 		#Determines what biomes Volines will spawn in
-		volineBiomes = "minecraft:nether_wastes, minecraft:crimson_forest, biomesoplenty:erupting_inferno, pyromancer:flaming_grove"
+		volineBiomes = "minecraft:nether_wastes, minecraft:crimson_forest, biomesoplenty:erupting_inferno"
 		#Determines what biomes Warpbeetles will spawn in
 		warpbeetleBiomes = "minecraft:warped_forest"
 		#Determines what biomes Shroomloins will spawn in
-		shroomloinBiomes = "minecraft:crimson_forest, biomesoplenty:undergrowth, gardens_of_the_dead:whistling_woods"
+		shroomloinBiomes = "minecraft:crimson_forest, gardens_of_the_dead:whistling_woods"
 		#Determines what biomes Basalt Giants will spawn in
 		basaltGiantBiomes = ""
 		#Determines what biomes Embodies will spawn in
 		embodyBiomes = "minecraft:soul_sand_valley, biomesoplenty:withered_abyss, gardens_of_the_dead:soulblight_forest, pyromancer:forest_of_rot"
 		#Determines what biomes Glowsquitos will spawn in
-		glowsquitoBiomes = "infernalexp:glowstone_canyon, biomesoplenty:erupting_inferno, pyromancer:flaming_grove"
+		glowsquitoBiomes = "infernalexp:glowstone_canyon, biomesoplenty:erupting_inferno"
 		#Determines what biomes Glowsilk Moths will spawn in
-		glowsilkMothBiomes = "minecraft:crimson_forest, minecraft:basalt_deltas, infernalexp:glowstone_canyon, biomesoplenty:undergrowth, pyromancer:flaming_grove"
+		glowsilkMothBiomes = "minecraft:crimson_forest, minecraft:basalt_deltas, infernalexp:glowstone_canyon, biomesoplenty:undergrowth"
 		#Determines what biomes Blindsights will spawn in
-		blindsightBiomes = "infernalexp:glowstone_canyon, biomesoplenty:erupting_inferno, pyromancer:flaming_grove"
+		blindsightBiomes = "infernalexp:glowstone_canyon, biomesoplenty:erupting_inferno"
 		#Determines what biomes Blackstone Dwarfs will spawn in
 		blackstoneDwarfBiomes = "minecraft:basalt_deltas, infernalexp:delta_shores, infernalexp:glowstone_canyon"
 

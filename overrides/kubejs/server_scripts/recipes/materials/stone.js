@@ -107,6 +107,18 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'create:milling',
         ingredients: [
+            Ingredient.of('biomesoplenty:orange_sandstone').toJson()
+        ],
+        results: [
+            Item.of('biomesoplenty:orange_sand').toJson()
+        ],
+        processingTime: 250
+    })
+    .id('aspirations:milling/orange_sandstone')
+
+    event.custom({
+        type: 'create:milling',
+        ingredients: [
             Ingredient.of('minecraft:granite').toJson()
         ],
         results: [
@@ -117,6 +129,18 @@ ServerEvents.recipes(event => {
     .id('aspirations:milling/granite')
 
     // White Sand
+
+    event.custom({
+        type: 'create:milling',
+        ingredients: [
+            Ingredient.of('biomesoplenty:white_sandstone').toJson()
+        ],
+        results: [
+            Item.of('biomesoplenty:white_sand').toJson()
+        ],
+        processingTime: 250
+    })
+    .id('aspirations:milling/white_sandstone')
 
     event.custom({
         type: 'create:milling',
@@ -155,6 +179,18 @@ ServerEvents.recipes(event => {
     .id('aspirations:milling/limestone')
 
     // Black Sand
+
+    event.custom({
+        type: 'create:milling',
+        ingredients: [
+            Ingredient.of('biomesoplenty:black_sandstone').toJson()
+        ],
+        results: [
+            Item.of('biomesoplenty:black_sand').toJson()
+        ],
+        processingTime: 250
+    })
+    .id('aspirations:milling/black_sandstone')
 
     event.custom({
         type: 'create:milling',
@@ -227,4 +263,30 @@ ServerEvents.recipes(event => {
         processingTime: 250
     })
     .id('aspirations:milling/bloodstone')
+
+    // Soul Sand
+
+    event.custom({
+        type: 'create:milling',
+        ingredients: [
+            Ingredient.of('quark:soul_sandstone').toJson()
+        ],
+        results: [
+            Item.of('minecraft:soul_sand').toJson()
+        ],
+        processingTime: 250
+    })
+    .id('aspirations:milling/soul_sandstone')
+
+    event.custom({
+        type: 'create:milling',
+        ingredients: [
+            Ingredient.of('forbidden_arcanus:soulless_sandstone').toJson()
+        ],
+        results: [
+            Item.of('forbidden_arcanus:soulless_sand').toJson()
+        ],
+        processingTime: 250
+    })
+    .id('aspirations:milling/soulless_sandstone')
 })

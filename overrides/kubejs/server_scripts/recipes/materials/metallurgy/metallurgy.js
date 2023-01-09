@@ -43,4 +43,36 @@ ServerEvents.recipes(event => {
         ]
     })
     .id('aspirations:pressing/sturdy_sheet')
+
+    // Soul Steel
+    event.remove({id: 'spirit:soul_engulfing/soul_steel'})
+    event.remove({id: 'spirit:soul_engulfing/soul_steel_block'})
+
+    event.custom({
+        type: 'spirit:soul_engulfing',
+        input: {
+            ingredient: Item.of('alloyed:steel_ingot').toJson(),
+            multiblock: {
+                pattern: [
+                    [
+                        '   ',
+                        ' @ ',
+                        '   '
+                    ],
+                    [
+                        ' S ',
+                        'S&S',
+                        ' S '
+                    ]
+                ],
+                keys: {
+                    S: {
+                        block: 'spirit:soul_powder_block'
+                    }
+                }
+            },
+        },
+        duration: 60,
+        outputItem: 'spirit:soul_steel_ingot'
+    })
 })

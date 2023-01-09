@@ -1,3 +1,8 @@
 {
-  "item.forbidden_arcanus.test_tube": "Blood Vial"
+  "item.forbidden_arcanus.test_tube": "Blood Vial",
+
+  "tooltip.forbidden_arcanus.soul_extractor": "Used to extract Souls from Soul Sand, or to capture wandering Souls",
+
+  "entity.forbidden_arcanus.lost_soul": "Lost Soul",
+  "entity.forbidden_arcanus.corrupted_soul": "Corrupted Soul"
 }

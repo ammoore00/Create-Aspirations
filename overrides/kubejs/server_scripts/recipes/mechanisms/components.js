@@ -55,7 +55,6 @@ ServerEvents.recipes(event => {
   // Mechanisms
 
   event.remove({id: 'create:sequenced_assembly/precision_mechanism'})
-  event.remove({id: 'create_things_and_misc:vibration_mecanism_craft'})
 
   event.custom({
     type: 'create:sequenced_assembly',
@@ -104,6 +103,8 @@ ServerEvents.recipes(event => {
     transitionalItem: Ingredient.of('create:incomplete_precision_mechanism').toJson()
   }).id('aspirations:precision_mechanism')
 
+  event.remove({id: 'create_things_and_misc:vibration_mecanism_craft'})
+
   event.custom({
     type: 'create:sequenced_assembly',
     ingredient: Ingredient.of('create_things_and_misc:rose_quartz_sheet').toJson(),
@@ -150,4 +151,14 @@ ServerEvents.recipes(event => {
     ],
     transitionalItem: Ingredient.of('create_things_and_misc:incomplete_vibration_mechanism').toJson()
   }).id('aspirations:conductive_mechanism')
+
+  event.remove({id: 'createaddition:rolling/straw'})
+
+  event.shapeless(
+    'createaddition:straw',
+    [
+      'create_sa:hydraulic_engine',
+      'create:mechanical_pump'
+    ]
+  ).id('aspirations:fuel_pump')
 })

@@ -78,6 +78,12 @@ ServerEvents.recipes(event => {
         'excavated_variants:tuff_': 'minecraft:flint',
         'excavated_variants:calcite_': 'biomesoplenty:white_sand',
         'excavated_variants:smooth_basalt_': 'biomesoplenty:black_sand',
+        'excavated_variants:sandstone_': 'minecraft:sand',
+        'excavated_variants:red_sandstone_': 'minecraft:red_sand',
+
+        'excavated_variants:biomesoplenty_black_sandstone_': 'biomesoplenty:black_sand',
+        'excavated_variants:biomesoplenty_orange_sandstone_': 'biomesoplenty:orange_sand',
+        'excavated_variants:biomesoplenty_white_sandstone_': 'biomesoplenty:white_sand',
 
         'excavated_variants:quark_jasper_': 'minecraft:red_sand',
         'excavated_variants:quark_shale_': 'minecraft:gravel',
@@ -253,6 +259,12 @@ ServerEvents.recipes(event => {
         'excavated_variants:tuff_': 'minecraft:flint',
         'excavated_variants:calcite_': 'biomesoplenty:white_sand',
         'excavated_variants:smooth_basalt_': 'biomesoplenty:black_sand',
+        'excavated_variants:sandstone_': 'minecraft:sand',
+        'excavated_variants:red_sandstone_': 'minecraft:red_sand',
+
+        'excavated_variants:biomesoplenty_black_sandstone_': 'biomesoplenty:black_sand',
+        'excavated_variants:biomesoplenty_orange_sandstone_': 'biomesoplenty:orange_sand',
+        'excavated_variants:biomesoplenty_white_sandstone_': 'biomesoplenty:white_sand',
 
         'excavated_variants:quark_jasper_': 'minecraft:red_sand',
         'excavated_variants:quark_shale_': 'minecraft:gravel',
@@ -402,7 +414,10 @@ ServerEvents.recipes(event => {
         'excavated_variants:create_scoria_': 'biomesoplenty:black_sand',
         'excavated_variants:create_scorchia_': 'biomesoplenty:black_sand',
 
-        'excavated_variants:twigs_bloodstone_': 'biomesoplenty:black_sand'
+        'excavated_variants:twigs_bloodstone_': 'biomesoplenty:black_sand',
+
+        'deeper_nether_biomes:soul_': 'minecraft:soul_sand',
+        'deeper_nether_biomes:basalt_': 'biomesoplenty:black_sand'
     }
     
     event.remove({id: 'create:crushing/nether_quartz_ore'});
@@ -454,4 +469,40 @@ ServerEvents.recipes(event => {
         })
         .id('aspirations:crushing/' + oreType.split(":")[1] + 'nether_gold_ore')
     }
+
+    let secondaryDeeperNetherBiomesGoldOutputs = {
+        'deeper_nether_biomes:soul_': 'minecraft:soul_sand',
+        'deeper_nether_biomes:basalt_': 'biomesoplenty:black_sand'
+    }
+
+    for (const [oreType, secondaryOutput] of Object.entries(secondaryDeeperNetherBiomesGoldOutputs)) {
+        event.custom({
+            type: 'create:crushing',
+            ingredients: [
+                Ingredient.of(oreType + 'gold_ore').toJson()
+            ],
+            results: [
+                Item.of('minecraft:gold_nugget', 18).toJson(),
+                Item.of('create:experience_nugget').withChance(0.75).toJson(),
+                Item.of(secondaryOutput).withChance(0.125).toJson()
+            ],
+            processingTime: 400
+        })
+        .id('aspirations:crushing/' + oreType.split(":")[1] + 'gold_ore')
+    }
+
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            Ingredient.of('infernalexp:basalt_iron_ore').toJson()
+        ],
+        results: [
+            Item.of('create:crushed_iron_ore', 2).toJson(),
+            Item.of('create:crushed_iron_ore').withChance(0.5).toJson(),
+            Item.of('create:experience_nugget').withChance(0.75).toJson(),
+            Item.of('biomesoplenty:black_sand').withChance(0.125).toJson()
+        ],
+        processingTime: 400
+    })
+    .id('aspirations:crushing/basalt_iron_ore')
 })

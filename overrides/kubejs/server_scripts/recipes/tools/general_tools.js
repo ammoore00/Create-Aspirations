@@ -30,4 +30,27 @@ ServerEvents.recipes(event => {
   event.remove({output: 'create_things_and_misc:sticky_boots_boots'})
   
   event.remove({output: 'create_things_and_misc:radar'})
+
+  event.remove({id: 'aquamirae:poisoned_chakra'})
+  event.remove({id: 'aquamirae:maze_rose'})
+
+  event.remove({id: 'forbidden_arcanus:soul_extractor'})
+
+  event.custom({
+    type: 'create:mechanical_crafting',
+    acceptMirrored: false,
+    pattern: [
+      'J   ',
+      'DBBB',
+      'AM  '
+    ],
+    key: {
+      J: Item.of('forbidden_arcanus:utrem_jar').toJson(),
+      D: Item.of('forbidden_arcanus:dark_matter').toJson(),
+      B: Item.of('minecraft:nether_brick').toJson(),
+      A: Item.of('create:andesite_alloy').toJson(),
+      M: Item.of('create_sa:heat_engine').toJson()
+    },
+    result: Item.of('forbidden_arcanus:soul_extractor')
+  })
 })
